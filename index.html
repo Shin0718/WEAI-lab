@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!-- 模板来源: https://colorlib.com/wp/template/personal/ (参考 PeAR WPI 网站结构) -->
+<html lang="zxx" class="no-js">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- 网站小图标: 换成你自己的 img/fav.png -->
+	<link rel="shortcut icon" href="img/fav.png">
+	<meta name="author" content="">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta charset="UTF-8">
+
+	<!-- ★改这里: 浏览器标签页标题 -->
+	<title>WEAI - Wearables & Embodied AI Group</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/linearicons.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="css/icofont/icofont.min.css" rel="stylesheet">
+	<link href="css/remixicon/remixicon.css" rel="stylesheet">
+	<link href="css/boxicons/css/boxicons.min.css" rel="stylesheet">
+	<!-- 学术图标(Google Scholar 图标需要), 来自 CDN -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+</head>
+<body>
+
+	<!-- ============ 顶部导航栏 ============ -->
+	<header id="header">
+		<div class="container main-menu">
+			<div class="row align-items-center justify-content-between d-flex">
+				<div id="logo">
+					<!-- ★改这里: logo 图片和实验室名称 -->
+					<a href="index.html" style="font-size: 24px; font-weight: 600; color: #ddd"><img src="img/logos/logo-white.svg" width="48px" alt="" title=""> &nbsp;Wearables & Embodied AI Group</a>
+				</div>
+				<nav id="nav-menu-container">
+					<ul class="nav-menu">
+						<li><a title="Home" href="index.html" style="position: relative; top: -4px"><i style="font-size: 28px" class="fa fa-home"></i></a></li>
+						<!-- ★改这里: 导航菜单, 三个项目直接平铺 -->
+						<li><a title="WanderPal" href="project1.html">WanderPal</a></li>
+						<li><a title="Project 2" href="project2.html">Project 2</a></li>
+						<li><a title="Project 3" href="project3.html">Project 3</a></li>
+						<li><a title="People" href="index.html#portfolio">People</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<!-- ============ 顶部大图轮播 (内容在 js/carousel-data.js 里改) ============ -->
+	<section class="banner-area">
+		<div class="container-full-width">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators"></ol>
+				<div class="carousel-inner"></div>
+				<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon"></span>
+				</a>
+				<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+					<span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- ============ About Us ============ -->
+	<section class="home-about-area pt-60" style="background: rgba(245,245,245,1);">
+		<div class="container">
+			<div class="title text-center">
+				<h1>About Us</h1>
+				<hr style="background-color: rgba(172, 43, 55, 0.5); width: 40vh"><br>
+				<!-- ★改这里: 实验室简介 -->
+				<p style="font-size: 18px">
+					Welcome to the Wearables & Embodied AI Group (WEAI)'s website. WEAI is led by <a href="#">Prof. XXX</a> at <a href="#">XXX University</a>. <br><br>
+					Our mission is to explore the intersection of wearable computing and embodied artificial intelligence — building intelligent systems that sense, understand, and interact with the physical world.
+				</p><br><br>
+				<!-- ★改这里: 社交图标链接 (mailto:你的邮箱 / GitHub / 地图) -->
+				<p style="font-size: 64px" class="black-links">
+					<a title="Email" href="mailto:your@email.edu"><i class="fa fa-envelope"></i></a>
+					<a title="Github" href="https://github.com/yourlab"><i class="fa fa-github"></i></a>
+					<a title="Location" href="https://maps.google.com/"><i class="fa fa-map-marker"></i></a>
+				</p>
+			</div>
+		</div>
+		<br><br>
+	</section>
+
+	<!-- ============ 成员列表 (内容在 js/team-data.js 里改) ============ -->
+	<section class="portfolio-area section-gap" id="portfolio">
+		<div class="container">
+			<div class="row d-flex justify-content-center">
+				<div class="menu-content pb-70 col-lg-8">
+					<div class="title text-center">
+						<h1 class="mb-10">Current Members</h1>
+						<hr style="background-color: rgba(172, 43, 55, 0.5); width: 40vh">
+					</div>
+				</div>
+			</div>
+			<div class="row" id="team-members-container">
+				<!-- 由 js/team-data.js 自动生成 -->
+			</div>
+		</div>
+	</section>
+
+	<!-- ============ 资助方/合作方 logo 横条 (不需要可整段删除) ============ -->
+	<section class="brands-area" style="background-color: rgba(0, 0, 0, 1.0);">
+		<div class="container">
+			<div class="brand-wrap">
+				<div class="row align-items-center active-brand-carusel justify-content-start no-gutters">
+					<!-- ★改这里: 每个 sponsor 一个 div, 图片放 img/sponsors/ -->
+					<div class="col single-brand">
+						<a href="#"><img class="mx-auto" src="img/sponsors/sponsor1.svg" style="height: 64px;" alt=""></a>
+					</div>
+					<div class="col single-brand">
+						<a href="#"><img class="mx-auto" src="img/sponsors/sponsor2.svg" style="height: 64px;" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- ============ 页脚 ============ -->
+	<section class="facts-area section-gap" style="background-color: rgba(255, 255, 255, 1.0); padding: 40px">
+		<div class="container">
+			<div class="title text-center">
+				<!-- ★改这里: 页脚 logo 和版权信息 -->
+				<p> <a href="index.html"><img src="img/logos/logo-black.svg" width="128px" alt="" title=""></a><br><br>
+					Wearables & Embodied AI Group (WEAI) <br>
+					XXX University <br>
+					Copyright © 2026<br>
+					<span style="font-size: 10px">Website based on <a href="https://colorlib.com" target="_blank">Colorlib</a></span>
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/vendor/jquery-2.2.4.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/vendor/bootstrap.min.js"></script>
+	<script src="js/easing.min.js"></script>
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/jquery.tabs.min.js"></script>
+	<script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/isotope.pkgd.min.js"></script>
+	<script src="js/waypoints.min.js"></script>
+	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/simple-skillbar.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/main.js"></script>
+	<!-- 成员列表模板 -->
+	<script src="js/team-data.js"></script>
+	<script src="js/team-template.js"></script>
+	<!-- 轮播图模板 -->
+	<script src="js/carousel-data.js"></script>
+	<script src="js/carousel-template.js"></script>
+</body>
+</html>

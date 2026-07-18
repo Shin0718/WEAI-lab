@@ -5114,5 +5114,11 @@ dl.accordion.time-line:before {
 .carousel-indicators li.active { background-color: #E8472B !important; }
 .black-links a, .black-links a i { color: #002FA7 !important; }
 .black-links a:hover, .black-links a:hover i { color: #E8472B !important; }
-.nav-menu > li > a:hover, .nav-menu > li:hover > a { color: #ffb4a3 !important; }
 .title a:hover { color: #E8472B; }
+
+/* ==== MoMA 风白底导航 ==== */
+#header { background: #fff !important; box-shadow: 0 1px 0 #e6e6e6; }
+#logo a { color: #111 !important; }
+.nav-menu > li > a { color: #111 !important; font-weight: 700 !important; background: transparent !important; }
+.nav-menu > li > a:hover, .nav-menu > li:hover > a { color: #002FA7 !important; }
+#mobile-nav-toggle, #mobile-nav-toggle i { color: #111 !important; }

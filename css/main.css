@@ -2455,7 +2455,7 @@ color: var(--linkhover);
   font-weight: 900;
 }
 
-@media (max-width: 1470px) {
+@media (max-width: 768px) {
   #mobile-nav-toggle {
     display: inline;
   }
@@ -5122,3 +5122,9 @@ dl.accordion.time-line:before {
 .nav-menu > li > a { color: #111 !important; font-weight: 700 !important; background: transparent !important; }
 .nav-menu > li > a:hover, .nav-menu > li:hover > a { color: #002FA7 !important; }
 #mobile-nav-toggle, #mobile-nav-toggle i { color: #111 !important; }
+/* 窄窗口时导航压缩字号, 保持横排不裁切 */
+@media (max-width: 1120px) {
+  .nav-menu > li > a { padding: 18px 6px 10px !important; font-size: 12px !important; }
+  #logo a { font-size: 17px !important; }
+  #logo img { width: 36px !important; }
+}

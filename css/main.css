@@ -2101,7 +2101,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
-  background: rgba(0, 0, 0, 0.95); /*rgba(169, 176, 183, 0.5); /* WPI Gray */
+  background: rgba(0, 47, 167, 0.97); /*rgba(169, 176, 183, 0.5); /* WPI Gray */
 }
 
 #header.header-scrolled {
@@ -2256,7 +2256,7 @@ color: black;
 
 
 .logo-background {
-  background: rgba(0,0,0, 0.7);
+  background: rgba(0, 26, 94, 0.7);
   border-radius: 10%;
  /* padding-right: 1%;*/
 }
@@ -2285,7 +2285,7 @@ color: black;
 }
 
 .logo-background {
-  background: rgba(0,0,0, 0.7);
+  background: rgba(0, 26, 94, 0.7);
   border-radius: 00%;
   padding-right: 0%;
 
@@ -2296,7 +2296,7 @@ color: black;
 .heading h4 a{
   color: white;
   /*text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;*/
-  /*background: rgba(0,0,0, 0.5);*/
+  /*background: rgba(0, 26, 94, 0.5);*/
   border-radius: 25%;
   padding-left: 8px;
   padding-right: 8px;
@@ -2405,7 +2405,7 @@ color: var(--linkhover);
   margin: 22px 0 0 0;
   padding: 10px;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  background: rgba(0,0,0,0.9);
+  background: rgba(0, 26, 94,0.9);
 }
 
 .nav-menu ul li {
@@ -2413,7 +2413,7 @@ color: var(--linkhover);
 }
 
 .nav-menu ul li a {
-  background-color: rgba(0,0,0,0.9);
+  background-color: rgba(0, 26, 94,0.9);
   padding: 5px 10px;
   color: #ddd;
   transition: 0.3s;
@@ -2471,7 +2471,7 @@ color: var(--linkhover);
   padding-top: 18px;
   bottom: 0;
   z-index: 998;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 26, 94, 0.8);
   left: -260px;
   width: 260px;
   overflow-y: auto;
@@ -2538,7 +2538,7 @@ color: var(--linkhover);
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 26, 94, 0.7);
   display: none;
 }
 
@@ -3994,7 +3994,7 @@ dl.accordion.time-line:before {
 }
 
 .blog-home-banner .overlay-bg {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 26, 94, 0.5);
 }
 
 .blog-page {
@@ -4027,7 +4027,7 @@ dl.accordion.time-line:before {
 }
 
 .top-category-widget-area .single-cat-widget .overlay-bg {
-  background: rgba(0, 0, 0, 0.85);
+  background: rgba(0, 26, 94, 0.85);
   /*margin: 7%;*/
   margin-top: 61%;
   margin-bottom: -30%;
@@ -4591,7 +4591,7 @@ dl.accordion.time-line:before {
 }
 
 .single-post-area .thumb .overlay-bg {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 26, 94, 0.8);
 }
 
 .single-post-area .navigation-area {
@@ -4605,7 +4605,7 @@ dl.accordion.time-line:before {
 
 .single-post-area .navigation-area .nav-left .thumb {
   margin-right: 20px;
-  background: #000;
+  background: #001a5e;
 }
 
 .single-post-area .navigation-area .nav-left .thumb img {
@@ -4644,7 +4644,7 @@ dl.accordion.time-line:before {
 
 .single-post-area .navigation-area .nav-right .thumb {
   margin-left: 20px;
-  background: #000;
+  background: #001a5e;
 }
 
 .single-post-area .navigation-area .nav-right .thumb img {
@@ -5104,3 +5104,15 @@ dl.accordion.time-line:before {
 }
 
 /*-------- end footer Area -------------*/
+
+/* ==== WEAI 蓝橘色系覆写 ==== */
+.genric-btn.primary:hover, .genric-btn.primary:focus {
+  background: #E8472B !important;
+  border-color: #E8472B !important;
+  color: #fff !important;
+}
+.carousel-indicators li.active { background-color: #E8472B !important; }
+.black-links a, .black-links a i { color: #002FA7 !important; }
+.black-links a:hover, .black-links a:hover i { color: #E8472B !important; }
+.nav-menu > li > a:hover, .nav-menu > li:hover > a { color: #ffb4a3 !important; }
+.title a:hover { color: #E8472B; }

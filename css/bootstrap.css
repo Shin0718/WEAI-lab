@@ -5652,7 +5652,7 @@ button.close {
   padding-bottom: 0px;
   color: #fff;
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 47, 167, 0.88);
   border-radius: 10px;
 }
 
@@ -5661,7 +5661,7 @@ button.close {
 }
 
 .carousel-caption a:hover {
-  color: var(--themecolor);
+  color: #FFB4A3;
 }
 
 

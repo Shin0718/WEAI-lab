@@ -5128,3 +5128,9 @@ dl.accordion.time-line:before {
   #logo a { font-size: 17px !important; }
   #logo img { width: 36px !important; }
 }
+/* logo 图片式标志: 垂直居中留白 */
+#logo { display: flex; align-items: center; padding: 6px 0; }
+#logo a { display: block; line-height: 0; }
+@media (max-width: 1120px) {
+  #logo img { height: 58px !important; }
+}

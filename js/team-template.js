@@ -2,14 +2,16 @@
 function createTeamMemberHTML(member) {
     const links = member.links || {};
 
-    // Build image style with square aspect ratio and crop
-    const baseImageStyle = 'width: 100%; aspect-ratio: 1 / 1; object-fit: cover;';
-    const imageStyle = `border-radius: 50%; ${member.imageStyle ? member.imageStyle : baseImageStyle}`;
-    const textAvatarStyle = `${imageStyle} display: flex; align-items: center; justify-content: center; background: #f2f4f7; border: 1px solid #d8dde6; color: #1f2a37; font-size: 26px; font-weight: 600; line-height: 1;`;
-    const initials = member.initials || member.name.replace(/\s*(教授|博士|先生|女士)\s*$/, '').trim().slice(0, 2);
+    const initials = member.initials || member.name
+        .split(/\s+/)
+        .filter(Boolean)
+        .map(part => part[0])
+        .slice(0, 2)
+        .join('')
+        .toUpperCase();
     const avatarHTML = member.image
-        ? `<img class="image img-fluid" src="${member.image}" alt="${member.name}" style="${imageStyle}">`
-        : `<div class="image img-fluid text-avatar" aria-label="${member.name}" style="${textAvatarStyle}">
+        ? `<img class="image img-fluid team-avatar" src="${member.image}" alt="${member.name}">`
+        : `<div class="image img-fluid team-avatar text-avatar" aria-label="${member.name}">
                 <span>${initials}</span>
            </div>`;
     
@@ -31,24 +33,24 @@ function createTeamMemberHTML(member) {
         linksHTML += `<a title="LinkedIn" href="${links.linkedin}" class="linkedin" style="font-size: 15px;">LinkedIn&nbsp;<i class="fa fa-linkedin"></i></a>`;
     }
     
-    // Build additional info HTML
-    const additionalInfoHTML = member.additionalInfo ? `<br>${member.additionalInfo}` : '';
+    const additionalInfoHTML = member.additionalInfo ? `<div class="team-affiliation">${member.additionalInfo}</div>` : '';
     
     // Return complete member HTML
     return `
-        <div class="single-portfolio col-sm-2 all raster" style="padding: 2vh">
+        <div class="single-portfolio team-member-card col-sm-6 col-md-4 col-lg-3 all raster">
             <div class="relative">
                 <div class="thumb">
-                    <div class="overlay overlay-bg" style="border-radius: 50%"></div>
+                    <div class="overlay overlay-bg"></div>
                     ${avatarHTML}
                 </div>
                 <div class="middle" style="${linksHTML ? '' : 'display: none;'}">
                     ${linksHTML}
                 </div>
             </div>
-            <div class="p-inner" style="text-align: center">
+            <div class="p-inner">
                 <h4>${member.name}</h4>
-                <div class="cat" style="text-transform: none">${member.role}${additionalInfoHTML}</div>
+                <div class="cat">${member.role}</div>
+                ${additionalInfoHTML}
             </div>
         </div>
     `;

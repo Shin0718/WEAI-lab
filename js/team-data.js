@@ -1,94 +1,95 @@
-// ============ 成员列表数据 ============
-//   name:  姓名
-//   role:  WEAI Lab 角色
-//   image: 头像路径, 没有头像时留空, 页面会显示文字头像
-//   additionalInfo: 附加说明 (可留空 "")
-//   links: 社交链接, 不需要的键直接删掉即可
-//          可用: website, scholar, twitter, github, linkedin
+// ============ Team member data ============
+//   name:  Name
+//   role:  WEAI Lab role
+//   image: Headshot path. Leave empty to show a text avatar.
+//   additionalInfo: Affiliation or degree information. Leave empty if not needed.
+//   links: Social links. Remove keys that are not needed.
+//          Available: website, scholar, twitter, github, linkedin
 
 const teamMembers = [
     {
-        name: "Pooya Sareh 教授",
+        name: "Pooya Sareh",
         role: "WEAI Lab Senior Academic Advisor",
-        image: "",
-        additionalInfo: "纽卡斯尔大学副教授（高级讲师）兼创意设计工程实验室（CDEL）主任",
+        image: "img/team/pooya-sareh.png",
+        additionalInfo: "Associate Professor (Senior Lecturer), Newcastle University; Director, Creative Design Engineering Lab (CDEL)",
         links: {}
     },
     {
-        name: "Cecilia Elisabet García Cena 教授",
+        name: "Cecilia Elisabet García Cena",
         role: "WEAI Lab Senior Academic Advisor",
-        image: "",
-        additionalInfo: "马德里理工大学高等工程与工业设计技术学院电气、电子、自动化与应用物理工程系副教授",
+        image: "img/team/cecilia-garcia-cena.jpg",
+        additionalInfo: "Associate Professor, Department of Electrical, Electronic, Automatic Control, and Applied Physics Engineering, ETSIDI, Technical University of Madrid",
         links: {}
     },
     {
-        name: "曹鸣 教授",
+        name: "Ming Cao",
         role: "WEAI Lab Senior Academic Advisor & Co-founder",
-        image: "",
-        additionalInfo: "江南大学数字科技与创意设计学院院长",
+        image: "img/team/ming-cao.png",
+        additionalInfo: "Dean, School of Digital Technology and Creative Design, Jiangnan University",
         links: {}
     },
     {
-        name: "包力源 博士",
+        name: "Liyuan Bao",
         role: "WEAI Lab Founder & Research Director",
-        image: "",
-        additionalInfo: "江南大学交互设计系主任",
+        image: "img/team/liyuan-bao.jpg",
+        additionalInfo: "Director, Department of Interaction Design, Jiangnan University",
         links: {}
     },
     {
-        name: "陈欣 先生",
+        name: "Xin Chen",
         role: "WEAI Lab Founder & Principal Researcher",
-        image: "",
-        additionalInfo: "马德里理工大学博士研究生",
+        image: "img/team/xin-chen.png",
+        additionalInfo: "Ph.D. Researcher, Technical University of Madrid",
         links: {}
     },
     {
-        name: "韩晓峰 先生",
+        name: "Xiaofeng Han",
         role: "WEAI Lab Academic Advisor",
-        image: "",
-        additionalInfo: "马德里理工大学博士研究生",
+        image: "img/team/xiaofeng-han.jpg",
+        additionalInfo: "Ph.D. Researcher, Technical University of Madrid",
         links: {}
     },
     {
-        name: "张连烨 女士",
+        name: "Lianye Zhang",
         role: "WEAI Lab Research Assistant",
-        image: "",
-        additionalInfo: "香港理工大学信息管理专业硕士",
+        image: "img/team/lianye-zhang.jpg",
+        additionalInfo: "M.Sc. in Information Management, The Hong Kong Polytechnic University",
         links: {}
     },
     {
-        name: "沈略 先生",
+        name: "Lue Shen",
         role: "WEAI Lab Research Assistant",
-        image: "",
-        additionalInfo: "江南大学交互设计专业硕士",
+        image: "img/team/lue-shen.png",
+        additionalInfo: "M.Des. in Interaction Design, Jiangnan University",
         links: {}
     },
     {
-        name: "顾雨婕 女士",
+        name: "Yujie Gu",
         role: "WEAI Lab Research Assistant",
-        image: "",
-        additionalInfo: "伦敦大学学院表演与交互设计专业硕士",
+        image: "img/team/yujie-gu.jpg",
+        additionalInfo: "M.A. in Performance and Interaction Design, University College London",
         links: {}
     },
     {
-        name: "吴雨桐 女士",
+        name: "Yutong Wu",
         role: "WEAI Lab Research Assistant Intern",
         image: "",
-        additionalInfo: "加州大学欧文分校计算机科学专业本科生",
+        initials: "YW",
+        additionalInfo: "B.S. student in Computer Science, University of California, Irvine",
         links: {}
     },
     {
-        name: "李芯蕊 女士",
+        name: "Xinrui Li",
         role: "WEAI Lab Research Assistant Intern",
-        image: "",
-        additionalInfo: "加州大学欧文分校艺术专业本科生",
+        image: "img/team/xinrui-li.jpg",
+        additionalInfo: "B.A. student in Art, University of California, Irvine",
         links: {}
     },
     {
-        name: "王嫣 女士",
+        name: "Yan Wang",
         role: "WEAI Lab Research Assistant Intern",
-        image: "",
-        additionalInfo: "芝加哥艺术学院 Designed Objects 专业本科生",
+        image: "img/team/yan-wang.jpg",
+        additionalInfo: "B.F.A. student in Designed Objects, School of the Art Institute of Chicago",
         links: {}
     }
 ];

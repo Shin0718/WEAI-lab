@@ -1,10 +1,10 @@
-// ============ 首页顶部轮播图数据 ============
-//   active:   true 显示 / false 隐藏
-//   link:     点击图片跳转的链接 (可留空 "")
-//   image:    图片路径, 建议约 1920x700 且所有图同尺寸, 放 img/banner/
-//   title:    大标题
-//   subtitle: 副标题
-// 三张轮播分别链到三个项目页面
+// ============ Homepage carousel data ============
+//   active:   true to show, false to hide
+//   link:     target URL when the image is clicked; leave empty if not needed
+//   image:    image path, ideally around 1920x700 with consistent dimensions
+//   title:    slide title
+//   subtitle: slide subtitle
+// Each slide links to its corresponding project page.
 
 const carouselSlides = [
     {

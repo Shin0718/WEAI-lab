@@ -17,8 +17,8 @@ const teamMembers = [
     {
         name: "Cecilia Elisabet García Cena",
         role: "Senior Academic Advisor",
-        image: "img/team/cecilia-garcia-cena.jpg",
-        additionalInfo: "Associate Professor, Department of Electrical, Electronic, Automatic Control, and Applied Physics Engineering, ETSIDI, Technical University of Madrid",
+        image: "img/team/cecilia-garcia-cena.png",
+        additionalInfo: "Full Professor, Department of Electrical, Electronic, Automatic Control, and Applied Physics Engineering, ETSIDI, Technical University of Madrid, Spain",
         links: {}
     },
     {

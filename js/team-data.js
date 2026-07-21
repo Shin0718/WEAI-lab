@@ -73,8 +73,7 @@ const teamMembers = [
     {
         name: "Yutong Wu",
         role: "WEAI Lab Research Assistant Intern",
-        image: "",
-        initials: "YW",
+        image: "img/team/yutong-wu.png",
         additionalInfo: "B.S. student in Computer Science, University of California, Irvine",
         links: {}
     },

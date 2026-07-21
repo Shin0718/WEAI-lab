@@ -5134,9 +5134,9 @@ dl.accordion.time-line:before {
 @media (max-width: 1120px) {
   #logo img { height: 58px !important; }
 }
-/* Carousel: fixed 1920x700 ratio with full images visible. */
+/* Carousel: fixed 1920x700 ratio with edge-to-edge images. */
 #myCarousel .carousel-item { aspect-ratio: 1920 / 700; }
-#myCarousel .carousel-item img { width: 100%; height: 100%; object-fit: contain; background: #e6e5e7; }
+#myCarousel .carousel-item img { width: 100%; height: 100%; object-fit: cover; object-position: center; background: #e6e5e7; }
 
 /* ==== People section ==== */
 #team-members-container {

@@ -1,77 +1,94 @@
-// ============ 成员列表数据 (共9人, 把姓名/头衔/头像/链接换成真实的) ============
+// ============ 成员列表数据 ============
 //   name:  姓名
-//   role:  头衔 (Professor / Ph.D. Student / M.S. Student / Undergraduate ...)
-//   image: 头像路径, 建议正方形, 放在 img/team/ 下
+//   role:  WEAI Lab 角色
+//   image: 头像路径, 没有头像时留空, 页面会显示文字头像
 //   additionalInfo: 附加说明 (可留空 "")
 //   links: 社交链接, 不需要的键直接删掉即可
 //          可用: website, scholar, twitter, github, linkedin
 
 const teamMembers = [
     {
-        name: "Prof. Member 1",
-        role: "Professor",
-        image: "img/team/member1.svg",
-        additionalInfo: "",
-        links: {
-            website: "https://example.com",
-            scholar: "https://scholar.google.com/",
-            github: "https://github.com/"
-        }
+        name: "Pooya Sareh 教授",
+        role: "WEAI Lab Senior Academic Advisor",
+        image: "",
+        additionalInfo: "纽卡斯尔大学副教授（高级讲师）兼创意设计工程实验室（CDEL）主任",
+        links: {}
     },
     {
-        name: "Member 2",
-        role: "Ph.D. Student",
-        image: "img/team/member2.svg",
-        additionalInfo: "",
-        links: { linkedin: "https://www.linkedin.com/" }
+        name: "Cecilia Elisabet García Cena 教授",
+        role: "WEAI Lab Senior Academic Advisor",
+        image: "",
+        additionalInfo: "马德里理工大学高等工程与工业设计技术学院电气、电子、自动化与应用物理工程系副教授",
+        links: {}
     },
     {
-        name: "Member 3",
-        role: "Ph.D. Student",
-        image: "img/team/member3.svg",
-        additionalInfo: "",
-        links: { linkedin: "https://www.linkedin.com/" }
+        name: "曹鸣 教授",
+        role: "WEAI Lab Senior Academic Advisor & Co-founder",
+        image: "",
+        additionalInfo: "江南大学数字科技与创意设计学院院长",
+        links: {}
     },
     {
-        name: "Member 4",
-        role: "Ph.D. Student",
-        image: "img/team/member4.svg",
-        additionalInfo: "",
-        links: { github: "https://github.com/" }
+        name: "包力源 博士",
+        role: "WEAI Lab Founder & Research Director",
+        image: "",
+        additionalInfo: "江南大学交互设计系主任",
+        links: {}
     },
     {
-        name: "Member 5",
-        role: "M.S. Student",
-        image: "img/team/member5.svg",
-        additionalInfo: "",
-        links: { linkedin: "https://www.linkedin.com/" }
+        name: "陈欣 先生",
+        role: "WEAI Lab Founder & Principal Researcher",
+        image: "",
+        additionalInfo: "马德里理工大学博士研究生",
+        links: {}
     },
     {
-        name: "Member 6",
-        role: "M.S. Student",
-        image: "img/team/member6.svg",
-        additionalInfo: "",
-        links: { website: "https://example.com" }
+        name: "韩晓峰 先生",
+        role: "WEAI Lab Academic Advisor",
+        image: "",
+        additionalInfo: "马德里理工大学博士研究生",
+        links: {}
     },
     {
-        name: "Member 7",
-        role: "M.S. Student",
-        image: "img/team/member7.svg",
-        additionalInfo: "",
-        links: { linkedin: "https://www.linkedin.com/" }
+        name: "张连烨 女士",
+        role: "WEAI Lab Research Assistant",
+        image: "",
+        additionalInfo: "香港理工大学信息管理专业硕士",
+        links: {}
     },
     {
-        name: "Member 8",
-        role: "Undergraduate",
-        image: "img/team/member8.svg",
-        additionalInfo: "",
-        links: { github: "https://github.com/" }
+        name: "沈略 先生",
+        role: "WEAI Lab Research Assistant",
+        image: "",
+        additionalInfo: "江南大学交互设计专业硕士",
+        links: {}
     },
     {
-        name: "Member 9",
-        role: "Undergraduate",
-        image: "img/team/member9.svg",
-        additionalInfo: "",
-        links: { linkedin: "https://www.linkedin.com/" }
+        name: "顾雨婕 女士",
+        role: "WEAI Lab Research Assistant",
+        image: "",
+        additionalInfo: "伦敦大学学院表演与交互设计专业硕士",
+        links: {}
+    },
+    {
+        name: "吴雨桐 女士",
+        role: "WEAI Lab Research Assistant Intern",
+        image: "",
+        additionalInfo: "加州大学欧文分校计算机科学专业本科生",
+        links: {}
+    },
+    {
+        name: "李芯蕊 女士",
+        role: "WEAI Lab Research Assistant Intern",
+        image: "",
+        additionalInfo: "加州大学欧文分校艺术专业本科生",
+        links: {}
+    },
+    {
+        name: "王嫣 女士",
+        role: "WEAI Lab Research Assistant Intern",
+        image: "",
+        additionalInfo: "芝加哥艺术学院 Designed Objects 专业本科生",
+        links: {}
     }
 ];

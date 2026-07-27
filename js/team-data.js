@@ -25,14 +25,14 @@ const teamMembers = [
         name: "Ming Cao",
         role: "Senior Academic Advisor & Co-founder",
         image: "img/team/ming-cao.png",
-        additionalInfo: "Dean, School of Digital Technology and Creative Design, Jiangnan University",
+        additionalInfo: "Dean, School of Digital Technology and Innovation Design, Jiangnan University",
         links: {}
     },
     {
         name: "Liyuan Bao",
         role: "Founder & Research Director",
         image: "img/team/liyuan-bao.jpg",
-        additionalInfo: "Director, Department of Interaction Design, Jiangnan University",
+        additionalInfo: "Deputy Director, Department of Industrial Design and Intelligent Interaction, Jiangnan University",
         links: {}
     },
     {
